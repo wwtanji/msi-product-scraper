@@ -1,0 +1,24 @@
+{
+  "name": "msi-product-scraper",
+  "version": "1.0.0",
+  "description": "Playwright scraper that extracts normalized product data from an MSI US Store product page",
+  "type": "module",
+  "main": "src/scrape.js",
+  "scripts": {
+    "scrape": "node src/scrape.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.64.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0"
+  }
+}
